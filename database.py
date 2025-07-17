@@ -107,6 +107,7 @@ def get_all_latest():
 
         results.append({
             "location_name": location_name if location_name else camera_id,
+            "camera_id": camera_id,
             "current": count,
             "capacity": capacity,
             "level": level,

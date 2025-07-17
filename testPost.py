@@ -4,9 +4,9 @@ from datetime import datetime
 url = "http://localhost:8000/api/people_count"
 
 data = {
-    "camera_id": "cam01",
+    "camera_id": "cam02",
     "timestamp": datetime.now().isoformat(),
-    "count": 45
+    "count": 20
 }
 
 response = requests.post(url, json=data)
